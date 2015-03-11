@@ -11,10 +11,14 @@
       }
     },
     events: {
-      'app.activated':'doSomething',
+      'app.created':'init',
+      'click .btn': 'startRequest',
       'request.always': 'response'
     },
-    doSomething: function() {
+    init: function() {
+      this.switchTo('button');
+    },
+    startRequest: function() {
       this.ajax('request');
     },
     response: function(data) {
