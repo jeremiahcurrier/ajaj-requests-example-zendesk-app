@@ -1,9 +1,9 @@
 {
-  "name": "test",
+  "name": "Request Test App",
   "author": {
-    "name": "j",
-    "email": "j@j.com",
-    "url": ""
+    "name": "Jeremiah Currier",
+    "email": "hello@jeremiahcurrier.com",
+    "url": "https://jeremiahcurrier.com"
   },
   "defaultLocale": "en",
   "private": true,
